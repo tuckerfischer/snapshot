@@ -28,47 +28,36 @@ li.topnav a:hover {
 }
 
 #figure {
-	margin-top: 1rem;
-	margin-left: 1rem;
+	display: inline-block;
 }
 
 .bio {
-	margin-right: 1rem;
-	margin-left: 32rem;
-	margin-top: -38.75rem;
-	height: 600px;
+	margin-top: 8px;
+	margin-left: 16px;
+	margin-right: 16px;
 }
 
 .profexp {
 	text-align: center;
-}
-
-div h3 {
 	border-bottom: 4px solid #333;
 }
 
-.pictext {
-	margin-top: 1rem;
-	margin-right: 1rem;
-	margin-left: 1rem;
-	margin-bottom: 1rem;
-	border: 4px solid #333;
-	font-size: 1rem;
-	height: 632px
-}
-
 .section {
-	padding-top: -5rem;
 }
 
 .container {
-	width: 1500px;
-	height: 500px;
+	width: 100vw;
+	height: 100vh;
 }
 
 #headshot {
-	margin-bottom: 1.5rem;
+	float: left;
+	max-width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 32px;
 }
+
 
 .linktree {
   	margin: 1rem;
